@@ -1,0 +1,25 @@
+{
+  "name": "product-category-api",
+  "version": "1.0.0",
+  "description": "A RESTful API to manage products and categories",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./src/bin/www",
+    "dev": "nodemon ./src/bin/www"
+  },
+  "author": "Afzal Imam",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv-safe": "^8.2.0",
+    "express": "^4.18.2",
+    "express-rate-limit": "^6.7.0",
+    "helmet": "^6.0.1",
+    "mongoose": "^6.8.4",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
